@@ -1,0 +1,141 @@
+.main
+{
+    height: 2532px;
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    justify-content: flex-start; /* Align items at the start (top) */
+    align-items: center; /* Center items horizontally */
+    background-image: url(./field-of-flowers-barbara-stanton.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.herphoto
+{
+margin-top: 5%;
+width: 90%;
+border-radius: 10%;
+}
+
+.tulip-left{
+    position: absolute;
+    top: 40%; /* Start position */
+    left: -80%; /* Slide in from the left */
+    width: 200px; /* Adjust size as needed */
+    transition: left 3s ease; /* Transition effect */
+}
+.tulip-right{
+    position: absolute;
+    top: 40%; /* Start position */
+    right: -80%; /* Slide in from the left */
+    width: 200px; /* Adjust size as needed */
+    transition: right 3s ease; /* Transition effect */
+}
+.slide-in-r50 {
+    right: 50%; /* End position */
+}
+.slide-in-r40 {
+    right: 40%; /* End position */
+}
+.slide-in-r30 {
+    right: 30%; /* End position */
+}
+.slide-in-r20 {
+    right: 20%; /* End position */
+}
+.slide-in-r10 {
+    right: 10%; /* End position */
+}
+.slide-in-l50 {
+    left: 50%; /* End position */
+}
+.slide-in-l40 {
+    left: 40%; /* End position */
+}
+.slide-in-l30 {
+    left: 30%; /* End position */
+}
+.slide-in-l20 {
+    left: 20%; /* End position */
+}
+.slide-in-l10 {
+    left: 10%; /* End position */
+}
+.surprise
+{
+    margin-top: 10%;
+    width: 70%;
+    height: 110px;
+    text-align: center;
+}
+#slideButton{
+    margin-top: 5%;
+    width: 100%;
+    height: 250px;
+    background-color: pink;
+    border-radius: 10%;
+}
+.click
+{
+    font-size: 50px;
+    color: beige;
+    align-self: center;
+    justify-self: center;
+}
+
+.congrat
+{
+    font-size: 70px;
+    color: beige;
+    text-decoration: wavy;
+    font-family: "Bad Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+    align-self: center;
+    justify-self: center;;
+}
+.msg
+{
+    position: absolute; /* For centering */
+    top: 70%; /* Position the top of the element at the vertical center of the parent */
+    left: 50%; /* Position the left side of the element at the horizontal center of the parent */
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 500px;
+    background-color: rgba(241, 112, 250, 0.5);
+}
+.tulip-but
+{
+    height: 50px;
+    width: 50px;
+    position: absolute; /* For centering */
+    top: 42%; /* Position the top of the element at the vertical center of the parent */
+    left: 12%; /* Position the left side of the element at the horizontal center of the parent */
+    background-color: transparent;
+    border-color: transparent;
+
+}
+.t1
+{
+    left: 25%; /* Position the left side of the element at the horizontal center of the parent */
+}
+.t2
+{
+    left: 37%; /* Position the left side of the element at the horizontal center of the parent */
+}
+.t3
+{
+    left: 48%; /* Position the left side of the element at the horizontal center of the parent */
+}
+.t4
+{
+    left: 58%; /* Position the left side of the element at the horizontal center of the parent */
+}
+.t5
+{
+    left: 68%; /* Position the left side of the element at the horizontal center of the parent */
+}
+.t6
+{
+    left: 80%; /* Position the left side of the element at the horizontal center of the parent */
+}
